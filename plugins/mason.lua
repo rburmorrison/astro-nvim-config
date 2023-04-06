@@ -16,6 +16,7 @@ return {
         "html",
         "cssls",
         "taplo",
+        "eslint",
       },
     },
   },
