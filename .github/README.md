@@ -20,7 +20,7 @@ git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 #### Clone the repository
 
 ```shell
-git clone https://github.com/rburmorrison/astro-nvim-config ~/.config/nvim/lua/user
+git clone git@github.com:rburmorrison/astro-nvim-config.git ~/.config/nvim/lua/user
 ```
 
 #### Start Neovim
