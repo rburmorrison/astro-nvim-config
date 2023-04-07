@@ -32,6 +32,22 @@ return {
       clangd = function(_, opts) require("clangd_extensions").setup { server = opts } end,
       tsserver = function(_, opts) require("typescript").setup { server = opts } end,
     },
+    config = {
+      rust_analyzer = {
+        settings = {
+          ["rust-analyzer"] = {
+            check = {
+              command = "clippy",
+            }
+          },
+        },
+      },
+      clangd = {
+        capabilities = {
+          offsetEncoding = "utf-8",
+        }
+      }
+    },
     -- customize lsp formatting options
     formatting = {
       -- control auto formatting on save
