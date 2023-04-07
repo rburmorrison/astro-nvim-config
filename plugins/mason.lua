@@ -13,7 +13,6 @@ return {
         "pyright",
         "pylsp",
         "tailwindcss",
-        "html",
         "cssls",
         "taplo",
         "eslint",
