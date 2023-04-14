@@ -16,6 +16,7 @@ return {
         "cssls",
         "taplo",
         "eslint",
+        "emmet_ls",
       },
     },
   },
