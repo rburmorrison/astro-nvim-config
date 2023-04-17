@@ -8,6 +8,7 @@ return {
       ensure_installed = {
         "tsserver",
         "clangd",
+        "cmake",
         "lua_ls",
         "rust_analyzer",
         "pyright",

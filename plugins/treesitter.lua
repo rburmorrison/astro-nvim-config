@@ -13,6 +13,8 @@ return {
       "css",
       "toml",
       "tsx",
+      "cmake",
+      "bash",
     },
   },
 }
