@@ -27,6 +27,7 @@ return {
     -- overrides `require("mason-null-ls").setup(...)`
     opts = {
       ensure_installed = {
+        "black",
         "prettier",
         "stylua",
         "shellcheck",
