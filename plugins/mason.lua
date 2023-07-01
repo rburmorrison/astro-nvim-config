@@ -18,6 +18,7 @@ return {
         "taplo",
         "eslint",
         "emmet_ls",
+        "ruff_lsp",
       },
     },
   },
